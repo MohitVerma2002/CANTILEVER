@@ -1,0 +1,69 @@
+.select {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  top: 35px;
+  left: -10px;
+  z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.select .searchField input {
+  width: 90% !important;
+  height: auto;
+  padding: 10px;
+  align-content: center;
+  font-size: 16px !important;
+  border: 1px solid #ff510e !important;
+  border-radius: 5px;
+  align-items: center;
+  outline: none;
+}
+
+.select ul li {
+  list-style: none;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  background-color: #f07849;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+}
+
+.select ul li.active {
+  background-color: #f9571791 !important;
+}
+
+.select ul li:hover {
+  background: #f95717;
+}
+
+.select ul {
+  margin-right: 5px;
+}
+
+.select .searchResults {
+  width: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  max-height: 300px;
+}
+
+.select .searchResults::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+.select .searchResults::-webkit-scrollbar-thumb {
+  background: none;
+}
+
+.openSelect {
+  padding: 15px;
+  position: relative;
+  cursor: pointer;
+}

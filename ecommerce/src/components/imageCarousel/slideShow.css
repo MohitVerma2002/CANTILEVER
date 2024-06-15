@@ -1,0 +1,118 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css");
+
+.imgSlider {
+  padding: 30px 60px;
+  height: fit-content;
+}
+
+.sliderImage {
+  width: 100%;
+  height: 300px;
+}
+.slider {
+  border-radius: 25px;
+  overflow: hidden;
+  border: none;
+  position: relative;
+}
+
+.imgInfo {
+  position: absolute;
+  top: 5%;
+  padding: 40px;
+}
+.main {
+  color: white !important;
+}
+
+.imgInfo h2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #ff510e;
+}
+.imgInfo span {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #ff510e;
+  font-weight: 300;
+}
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  width: 23px !important;
+  height: 23px !important;
+  background-color: #fdd8c8cf !important;
+  border-radius: 50% !important;
+  z-index: 10 !important;
+  box-shadow: rgba(35, 34, 34, 0.4) 0px 2px 4px;
+}
+
+.slick-next {
+  right: 1% !important;
+}
+.slick-prev {
+  left: 1% !important;
+}
+
+.slick-arrow:hover {
+  background-color: #f3b194fd;
+  transition: ease-in-out;
+}
+
+.slider .slick-dots {
+  position: absolute;
+  bottom: 15px;
+}
+
+.slider .slick-dots button::before {
+  width: 10px !important;
+  height: 10px !important;
+  font-size: 16px;
+}
+
+.slick-active button::before {
+  color: #f5814ffd !important;
+}
+
+.newsLetterBanner {
+  width: 600px;
+  height: auto;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+.newsLetterBanner input {
+  padding: 5px 25px;
+  width: 70%;
+  font-size: 18px;
+  color: #ff510e;
+  opacity: 0.7;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+}
+.newsLetterBanner input::placeholder {
+  font-size: 13px;
+  color: #f5814ffd;
+}
+.newsLetterBanner main::placeholder {
+  font-size: 13px;
+  color: grey !important;
+}
+.newsLetterBanner .subscribeBtn {
+  width: 30%;
+  color: #ff520eb7;
+  background-color: #fff1eacf;
+  border-radius: 25px;
+}
+.newsLetterBanner .main {
+  background-color: #9ce2f8e7;
+}
+
+.newsLetterBanner .main:hover {
+  color: rgb(156, 147, 147) !important;
+  background-color: aqua;
+}

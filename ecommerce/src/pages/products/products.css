@@ -1,0 +1,227 @@
+.products {
+  padding: 45px 0;
+  width: 100%;
+}
+
+.products .productsContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.products .productsContainer .productHeader {
+  width: 95%;
+  height: auto;
+  border-radius: 12px;
+  background-color: #fef2ed6d;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.products .productsContainer .productHeader .proHeaderLink {
+  text-decoration: none;
+  font-size: 13px;
+  color: #ff520ebb;
+  display: flex;
+  align-items: center;
+}
+
+.products .productsContainer .productHeader .proHeaderLink .homeIcon {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.products .productsContainer .productHeader h2 {
+  font-size: 36px;
+  color: #ff520e;
+}
+
+.products .productsData {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.productsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100% !important;
+  justify-content: center;
+}
+
+.productsRow .item {
+  flex: 2 calc(25% - 20px);
+  box-sizing: border-box;
+  margin-left: 80px;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.banner .bannerImg {
+  width: 100%;
+  margin: 20px 50px;
+  height: 350px;
+  border-radius: 25px;
+}
+
+.bannerInfo {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  padding: 40px;
+}
+.imgwrapper {
+  cursor: pointer;
+}
+
+.bannerInfo h2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.bannerInfo span {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 300;
+}
+
+.newsLetterBanner {
+  width: 600px;
+  height: auto;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.bannerInfo .newsLetterBanner input {
+  padding: 5px 25px;
+  width: 70%;
+  font-size: 18px;
+  color: #307184e7;
+  opacity: 0.7;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+}
+
+.bannerInfo .newsLetterBanner input::placeholder {
+  font-size: 13px;
+  color: grey;
+}
+
+.bannerInfo .newsLetterBanner .subscribeBtn {
+  width: 30%;
+  color: rgb(80, 68, 68);
+  background-color: #9ce2f8e7;
+  border-radius: 25px;
+}
+
+.bannerInfo .newsLetterBanner .subscribeBtn:hover {
+  color: white;
+  background-color: #77d2ed;
+  transition: 0.2s ease-in-out;
+}
+
+.productRight h4 {
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.productRight h4 strong {
+  color: #ff520e;
+}
+
+.productRight .topStrip {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Ensure items are centered vertically */
+  width: 100%;
+  margin-bottom: 20px; /* Add some space below */
+}
+
+.productRight .topStrip li {
+  list-style: none;
+}
+
+.productRight .topStrip .sortButton {
+  color: #ff520e !important;
+}
+
+.productRight .topStrip .btn {
+  text-transform: capitalize !important;
+  position: relative;
+  border: 1px solid #ff520e5f;
+  border-radius: 5px;
+  padding: 5px 10px; /* Add some padding */
+  background-color: #fff; /* Add background color */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.productRight .topStrip .btn li .sortIcon {
+  margin-right: 10px;
+  color: #ff520e;
+}
+
+.drop {
+  position: absolute;
+  width: 150px;
+  right: 30px;
+  border-radius: 5px;
+  border: 1px solid #ff520e46;
+  background-color: #ffe6dc;
+  z-index: 100;
+}
+
+.drop .dropDownBtn ul {
+  width: 100%;
+}
+
+.drop .dropDownBtn li .dropList {
+  width: 100%;
+}
+
+.productRight .productRow {
+  width: 70% !important;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust gap between products */
+  justify-content: flex-start; /* Ensure items are aligned to the start */
+}
+
+@media (max-width: 1200px) {
+  .item {
+    flex: 1 1 calc(33.333% - 20px); /* Adjust for 3 items per row on larger tablets */
+  }
+}
+
+@media (max-width: 992px) {
+  .item {
+    flex: 1 1 calc(50% - 20px); /* Adjust for 2 items per row on smaller tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .item {
+    flex: 1 1 100%; /* Adjust for 1 item per row on mobile devices */
+  }
+}

@@ -1,0 +1,132 @@
+.sideBar {
+  display: flex;
+  gap: 300px;
+  width: 95vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around !important;
+}
+.sideBar .card {
+  padding: 15px;
+  width: 250px;
+  height: auto;
+  background-color: #fefdfcc2;
+  border: 1px solid #facbb7;
+  border-radius: 12px;
+  box-shadow: rgba(186, 182, 178, 0.772) 0px 1px 4px;
+  margin: 50px 0px;
+  gap: 200px;
+}
+.sideBar .card h3 {
+  font-size: 22px;
+  width: 100%;
+  background-color: #facbb7;
+  color: #f76f35;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px 0;
+  cursor: pointer;
+  border: 1px solid #f76f3533;
+  transition: 0.2s ease-in-out;
+}
+.itemInfo:hover {
+  box-shadow: rgba(245, 197, 149, 0.886) 0px 1px 4px;
+}
+.itemInfo img {
+  width: 20px;
+  margin-right: 10px;
+}
+.itemInfo span {
+  font-size: 16px;
+  color: #f76f35;
+  letter-spacing: 1px;
+  width: 150px;
+}
+.itemInfo p {
+  background-color: #facbb7;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 8px;
+  color: #f76f35;
+}
+.sliderBox {
+  margin: 20px 0px;
+}
+
+.sliderBox {
+  padding: 0px 0px;
+  width: 100%;
+}
+
+.sliderText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sliderText span {
+  font-size: 13px;
+  color: #f76f35;
+}
+
+.filters {
+  padding: 25px 0px;
+}
+
+.filters ul {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.filters ul::-webkit-scrollbar {
+  width: 7px !important;
+}
+.filters ul::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #f76f35;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filters h5 {
+  font-weight: 500;
+  margin-left: 10px;
+  color: #f76f35;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.filters ul li {
+  list-style: none;
+  width: 100%;
+  font-size: 13px;
+  margin: none;
+  color: #f76f35;
+}
+
+.filterButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #f29d78 !important;
+  color: white !important;
+  margin-top: 15px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+}
+.filterButton:hover {
+  background-color: #f16e36 !important;
+}
+
+.filterIcon {
+  padding: 5px;
+}

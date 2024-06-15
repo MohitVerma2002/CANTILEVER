@@ -1,0 +1,136 @@
+.homeProducts {
+  padding: 40px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+}
+
+.homeProducts .homeProductsContainer {
+  width: 100%;
+}
+.homeProducts .homeProductsContainer h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.homeProducts .homeProductsContainer .filter {
+  font-size: 16px;
+  color: #ff510e;
+  opacity: 0.7;
+  background-color: #f7bda64a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.homeProducts .homeProductsContainer .productTags {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.homeProducts .homeProductsContainer .productTags .productList {
+  display: flex;
+  flex-direction: row;
+}
+
+.homeProducts .homeProductsContainer .productTags .productList li {
+  list-style: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #ff510e;
+  font-size: 16px;
+}
+
+.homeProducts .homeProductsContainer .productTags .productList li:hover {
+  box-shadow: rgba(247, 228, 207, 0.772) 0px 1px 4px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+  transform: translateY(-2px);
+}
+
+/* --------product------------ */
+.homeProducts .homeProductsContainer .productRow {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  justify-content: center;
+}
+
+.homeProducts .homeProductsContainer .productRow .item {
+  padding: 15px;
+  border-radius: 5px;
+  width: 20%;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.banner .bannerImg {
+  width: 100%;
+  margin: 20px 50px;
+  height: 350px;
+  border-radius: 25px;
+}
+
+.bannerInfo {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  padding: 40px;
+}
+
+.bannerInfo h2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: white;
+  margin-bottom: 20px;
+}
+.bannerInfo span {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 300;
+}
+
+.newsLetterBanner {
+  width: 600px;
+  height: auto;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+.bannerInfo .newsLetterBanner input {
+  padding: 5px 25px;
+  width: 70%;
+  font-size: 18px;
+  color: #307184e7;
+  opacity: 0.7;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+}
+.bannerInfo .newsLetterBanner input::placeholder {
+  font-size: 13px;
+  color: grey;
+}
+
+.bannerInfo .newsLetterBanner .subscribeBtn {
+  width: 30%;
+  color: rgb(80, 68, 68);
+  background-color: #9ce2f8e7;
+  border-radius: 25px;
+}
+.bannerInfo .newsLetterBanner .subscribeBtn:hover {
+  color: white;
+  background-color: #77d2ed;
+  transition: 0.2s ease-in-out;
+}

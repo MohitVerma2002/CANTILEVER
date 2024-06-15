@@ -1,0 +1,191 @@
+.nav {
+  width: 100%;
+  height: auto;
+  background-color: #fef2ed;
+  padding: 10px 0px;
+}
+
+.nav .navContainer {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .navContainer .navItems {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  gap: 30px;
+}
+.nav .navContainer .navItems .navList {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(237, 139, 93, 0.79) 0px 1px 2px;
+  background-color: transparent;
+  color: #ff510e;
+  font-weight: 600;
+}
+.nav .navContainer .navItems .navLink {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #ff510e !important;
+  border-radius: 5px;
+  position: relative;
+}
+
+.nav .navContainer .navItems .navLink:hover {
+  color: white !important;
+}
+
+.nav .navContainer .navItems .navList:hover {
+  background-color: #ff510e;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+
+.nav .navContainer .navItems .navListDrop {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  color: #ff510e;
+  font-weight: 600;
+}
+.nav .navContainer .navItems .navListDrop .navLink:hover {
+  background-color: rgba(252, 218, 197, 0.363);
+  color: #ff510e !important;
+}
+
+.nav .navContainer .navService {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 50px;
+  gap: 10px;
+}
+
+.nav .navContainer .navService .headphoneIcon {
+  font-size: 45px;
+  color: #ff510e;
+}
+
+.nav .navContainer .navService .navServiceText span {
+  font-size: 24px;
+  color: #ff510e;
+}
+.nav .navContainer .navService .navServiceText p {
+  font-size: 13px;
+  color: #f5bfa8;
+}
+
+.nav .pagesMenu {
+  position: absolute;
+  top: 162px !important;
+  background-color: #fef2ede8;
+  width: 180px;
+  padding: 10px 0px;
+  box-shadow: rgba(237, 139, 93, 0.4) 0px 1px 4px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+}
+.pagesLink {
+  text-decoration: none;
+  color: #ff510e;
+}
+.nav .pagesMenu .pagesMenuBtn {
+  width: 100%;
+  opacity: 0.8;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 12px;
+  text-align: left;
+}
+.nav .pagesMenu .pagesMenuBtn:hover {
+  background-color: #f5bfa859;
+}
+
+.nav .pagesMenu li {
+  width: 200px;
+  list-style: none;
+}
+
+.nav li:hover .pagesMenu {
+  position: absolute;
+  top: 152px !important;
+  opacity: 1;
+  visibility: inherit;
+  transition: 0.2s ease-in-out;
+}
+
+.nav .productsMenu {
+  position: absolute;
+  top: 170px !important;
+  left: 5%;
+  background-color: #fef2edf1;
+  width: 90%;
+  padding: 10px 0px;
+  box-shadow: rgba(237, 139, 93, 0.4) 0px 1px 4px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.productLink {
+  text-decoration: none;
+  color: #ff510e;
+}
+.nav li:hover .productsMenu {
+  position: absolute;
+  top: 152px !important;
+  opacity: 1;
+  visibility: inherit;
+  transition: 0.2s ease-in-out;
+}
+.nav .productsMenu .productsMenuBtn {
+  width: 100%;
+  opacity: 0.8;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 12px;
+  text-align: left;
+}
+.nav .productsMenu .productsMenuBtn:hover {
+  background-color: #f5bfa859;
+}
+
+.nav .productsMenu li {
+  width: 100%;
+  list-style: none;
+}
+
+.nav .productsMenu .productsCol span {
+  font-size: 20px;
+  font-weight: 600;
+  cursor: auto;
+}
+
+.nav .productsMenu .productsCol ul {
+  margin-top: 10px;
+}
+
+.nav .productsMenu .productsCol .productsImage {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 18px;
+  border-radius: 5px;
+}

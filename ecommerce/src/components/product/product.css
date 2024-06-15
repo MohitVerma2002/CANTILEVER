@@ -1,0 +1,123 @@
+.product {
+  width: 210px;
+  height: 360px;
+  background-color: #fefdfcc2;
+  border: 1px solid #facbb7;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.product:hover {
+  box-shadow: rgba(247, 228, 207, 0.772) 0px 1px 4px;
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out;
+}
+
+.product .imgwrapper {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product .imgwrapper .overview {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  background-color: #ffffff45;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  transform: scale(0.8);
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+
+.product:hover .overview {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.product .imgwrapper .overview .viewIcon {
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.product .imgwrapper .overview:hover {
+  background-color: #facbb788;
+}
+
+.product .imgwrapper img {
+  transition: all 0.2s ease-in-out;
+}
+.product:hover .imgwrapper img {
+  transform: scale(1.1);
+}
+
+.product.productInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.product .productInfo .brand {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #f98c5e;
+}
+.product .productInfo h4 {
+  margin: 10px 0px;
+}
+.product .productInfo .title {
+  letter-spacing: 1px;
+  color: #ff510e;
+  text-decoration: none;
+}
+.product .productInfo .title:hover {
+  color: #f3703dc1;
+}
+
+.product .productInfo .rating {
+  font-size: 16px;
+  margin: 5px 0px;
+}
+.product .productInfo .brandName {
+  font-size: 14px;
+}
+
+.brName {
+  color: #ff510e;
+  text-decoration: none;
+}
+
+.product .productInfo .productBuy {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+}
+.product .productInfo .productBuy .price {
+  color: #ff510e;
+  font-weight: 600;
+  font-size: 20px;
+}
+.product .productInfo .productBuy .addItem {
+  background-color: #fb7b44;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.product .productInfo .productBuy .addItem:hover {
+  transform: scale(0.95);
+  transition: all 0.2s ease-in-out;
+  background-color: #f98d5eca;
+}

@@ -1,0 +1,469 @@
+.details {
+  width: 100%;
+  height: auto;
+  padding: 45px 30px;
+}
+
+.details .detailsContainerWrapper {
+  width: 100%;
+  height: auto;
+}
+
+.details .detailsContainerWrapper .detailsContainer {
+  width: 100%;
+  height: auto;
+}
+
+.details .detailsContainerWrapper .detailsContainer .breadCrumb {
+  align-items: center;
+  padding-left: 40px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: antiquewhite;
+  border-radius: 12px;
+}
+.details .detailsContainerWrapper .detailsContainer .breadCrumb li {
+  list-style: none;
+  color: #5b2007a7;
+}
+.details .detailsContainerWrapper .detailsContainer .breadCrumb .link {
+  text-decoration: none;
+  color: #f76f35;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin: 50px 0px;
+}
+
+.container .detailsContainerRow {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container .detailsContainerCol1 {
+  width: 350px;
+  height: auto;
+}
+.imgZoom {
+  border: 2px solid #f76f3518;
+  border-radius: 12px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.container .detailsContainerCol2 {
+  width: 500px;
+}
+
+.detailTitle {
+  color: #f76f35;
+  font-size: 40px;
+}
+
+.detailsContainerRow .detailsContainerCol2 .ratingInfo {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.detailsContainerRow .detailsContainerCol2 .ratingInfo .rating {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.detailsContainerRow .detailsContainerCol2 .ratingInfo .ratingReviews {
+  font-size: 13px !important;
+  font-weight: 200;
+  color: #f76f35c1;
+}
+
+.detailsContainerRow .detailsContainerCol2 .priceInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #f76f35;
+  margin: 30px 0px;
+}
+.detailsContainerRow .detailsContainerCol2 .priceInfo .priceOff {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.detailsContainerRow .detailsContainerCol2 .priceInfo .price {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.detailsContainerRow .detailsContainerCol2 .priceInfo .perOff {
+  font-weight: 200;
+  font-size: 13px;
+}
+.detailsContainerRow .detailsContainerCol2 .priceInfo .oldPrice {
+  font-weight: 200;
+  font-size: 20px;
+  text-decoration: line-through;
+}
+
+.detailsContainerCol2 .detailText {
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #f76f35;
+}
+
+.detailsContainerCol2 .addCartSection {
+  margin: 40px 0px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+.detailsContainerCol2 .addCartSection .counterSection {
+  width: 130px;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid #f76f353f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.detailsContainerCol2 .addCartSection .counterSection input {
+  width: 80px;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  font-size: 28px;
+  color: #f76f35;
+}
+
+.detailsContainerCol2
+  .addCartSection
+  .counterSection
+  input[type="number"]::-webkit-inner-spin-button,
+.detailsContainerCol2
+  .addCartSection
+  .counterSection
+  input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.detailsContainerCol2 .addCartSection .counterSection .arrow {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.5;
+  border-radius: 3px;
+  color: white;
+}
+.detailsContainerCol2 .addCartSection .counterSection .plus {
+  top: -2px;
+  right: 5px;
+  background-color: #f76f35;
+}
+.detailsContainerCol2 .addCartSection .counterSection .minus {
+  bottom: -2px;
+  right: 5px;
+  background-color: #f76f35;
+}
+
+.addToCart {
+  background-color: green !important;
+
+  border-radius: 12px;
+}
+.addToCart:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+.addToCart .addBtn {
+  padding: 15px;
+  border-radius: 12px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.cartIcon {
+  margin-right: 10px;
+}
+
+.cardDetails {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border: 1px solid #f76f357b;
+}
+
+.cardDetails .customTabs .tabLists {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.cardDetails .customTabs .tabLists .tabItem {
+  list-style: none;
+  margin-right: 10px;
+}
+.cardDetails .customTabs .tabLists .tabItem .tabButton {
+  border-radius: 25px;
+  border: 1px solid #f76f3552;
+  border-radius: 25px;
+  background-color: #ffe0d2;
+  padding: 5px 15px;
+  color: #f76f35;
+}
+
+.cardDetails .tabContent {
+  margin: 20px;
+}
+
+.tableInfo {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0; /* Adds margin around the table */
+}
+
+.tableInfo th,
+.tableInfo td {
+  padding: 12px 15px; /* Adds padding inside the table cells */
+  border: 1px solid #ddd; /* Adds a light border to cells */
+  text-align: left; /* Aligns text to the left */
+}
+
+.table th {
+  background-color: #f2f2f2; /* Adds a background color to table headers */
+}
+
+.tableInfo th {
+  background-color: #f9f9f9; /* Background color for the header */
+  color: #333; /* Text color for the header */
+  font-weight: bold; /* Makes the header text bold */
+}
+
+.tableInfo tbody tr:nth-child(even) {
+  background-color: #f3f3f3; /* Adds a background color to alternate rows */
+}
+
+.tableInfo tbody tr:hover {
+  background-color: #e9e9e9; /* Adds a background color on row hover */
+}
+
+.reviewRow {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.reviewRow .reviewCol1 {
+  width: 65%;
+  height: auto;
+  padding: 20px;
+}
+.reviewRow .reviewCol2 {
+  width: 30%;
+  padding: 20px;
+}
+
+.reviewRow .reviewCol1 .review {
+  background-color: #fff6f2;
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.reviewRow .reviewCol1 .review .reviewPerson {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviewRow .reviewCol1 .review .reviewPerson .image {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.reviewRow .reviewCol1 .review .reviewPerson .personImg {
+  width: 50px;
+  height: 50px;
+  color: #f76f35;
+}
+
+.reviewRow .reviewCol1 .review .reviewPerson .personName {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: #f76f35;
+}
+
+.reviewRow .reviewCol1 .review .reviewPerson .personsReview {
+  width: 100%;
+  color: #e24f14;
+}
+.reviewRow .reviewCol1 .review .reviewPerson .personsReview .rating {
+  font-size: 20px;
+  width: 100%;
+  padding-right: 20px !important;
+}
+.reviewInfo {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.reviewDate {
+  font-weight: 200;
+  color: #e24e14c2;
+  font-size: 13px;
+  width: 100%;
+}
+.reviewCol2 {
+  margin-top: 20px;
+  width: 300px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.addReview {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #e24f14;
+  padding: 20px;
+}
+.addReview .addReviewHeading {
+  color: #e24f14;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.addReview form .reviewTextArea {
+  width: 250px;
+  height: 100px;
+  outline: none;
+  border: 1px solid #f89771;
+  padding: 10px;
+  font-size: 18px;
+  color: #e24f14;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.addReview form .reviewTextArea::placeholder {
+  color: #f5a07f;
+}
+
+.addReview .reviewInput {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 1px solid #f5a07f;
+  outline: none;
+  padding: 0px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #e24f14;
+}
+.addReview .reviewInput::placeholder {
+  color: #f5a07f;
+}
+.addReview .submitBtn {
+  width: 100%;
+  background-color: green !important;
+  color: white !important;
+}
+.addReview .submitBtn:hover {
+  background-color: rgb(3, 211, 3) !important;
+  transition: 0.2s ease-in-out;
+}
+
+.addReview .rating {
+  margin-bottom: 10px;
+}
+
+/* ------------------ */
+
+.addReviewMain {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.addReviewMain .addReviewHeading {
+  text-align: center;
+  font-size: 40px;
+  color: #e24f14;
+  margin-bottom: 20px;
+}
+
+.addReviewMain .rating {
+  font-size: 26px;
+  width: max-content;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addReviewMain .reviewTextArea {
+  width: 400px;
+  height: 200px;
+  border: 1px solid #e24f14;
+  outline: none;
+  padding: 20px;
+  font-size: 20px;
+}
+.addReviewMain .personDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0px;
+}
+
+.addReviewMain .reviewInput {
+  width: 400px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.addReviewMain .reviewInput::placeholder {
+  color: #f5a07f;
+}
+.addReviewMain .submitBtn {
+  width: 100%;
+  background-color: green !important;
+  color: white !important;
+}
+.addReviewMain .submitBtn:hover {
+  background-color: rgb(3, 211, 3) !important;
+  transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,107 @@
+.footer {
+  padding: 30px;
+  width: 100%;
+  background-color: rgb(252, 239, 230);
+}
+.footer .footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer .footerContainer .footerTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .footerContainer .footerTop h1 a {
+  font-size: 40px;
+  margin-left: 20px;
+  color: #cf4c18;
+  text-decoration: none;
+}
+.footer .footerContainer .footerTop .footerSocial img {
+  width: 30px;
+  margin-right: 20px;
+  opacity: 0.7;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer .footerContainer .footerTop .footerSocial img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+.footer .footerContainer .footerTop .footerSocial h6 {
+  margin-bottom: 5px;
+}
+
+.footer .footerContainer .footerMiddle {
+  width: 100%;
+  margin: 30px 0;
+}
+.footer .footerContainer .footerMiddle .footerRow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer .footerContainer .footerMiddle .footerRow .footerCol {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footerContainer .footerMiddle .footerRow .footerCol h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer .footerContainer .footerMiddle .footerRow .footerCol span {
+  font-size: 13px;
+  color: #842f0d;
+}
+.footer .footerContainer .footerMiddle .footerRow .footerCol span:hover {
+  color: #cf4c18;
+}
+.footer .footerContainer .footerMiddle .footerRow .footerCol .footerLink {
+  text-decoration: none;
+}
+.footer .footerContainer .footerBottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #cf4c18;
+  border-radius: 12px;
+  color: white;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+.footer .footerContainer .footerBottom .footerBottomMine span {
+  /* color:crimson; */
+  font-size: 23px;
+}
+.footer .footerContainer .footerBottom .footerCopyright {
+  margin: 15px 0px;
+  font-size: 13px;
+}
+.footerHelpline {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 13px;
+}
+.footer a img {
+  width: 30px !important;
+}
+
+.footerHelpline a img {
+  width: 50px;
+  margin-right: 20px;
+}

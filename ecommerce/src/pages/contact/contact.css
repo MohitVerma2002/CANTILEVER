@@ -1,0 +1,125 @@
+.contact {
+  width: 100%;
+  padding: 30px;
+}
+.contact .contactContainer {
+  width: 100%;
+}
+
+.contact .contactContainer .contactTop {
+  width: 100%;
+  background-color: #ffebe3;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.contact .contactContainer .contactTop ul {
+  display: flex;
+  flex-direction: row;
+}
+.contact .contactContainer .contactTop ul li {
+  list-style: none;
+  margin-right: 5px;
+}
+.contact .contactContainer .contactTop ul li .link {
+  text-decoration: none;
+  color: #ff510e;
+  font-size: 18px;
+}
+
+.contact .contactContainer .contactMain {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact .contactContainer .contactMain .contactSocial img {
+  width: 25px;
+  margin-right: 10px;
+}
+.contact .contactContainer .contactMain .contactLeft h2 {
+  color: #ff510e;
+  font-size: 30px;
+}
+.contact .contactContainer .contactMain .contactLeft h3 {
+  color: #ff510e;
+}
+.contact .contactContainer .contactMain .contactLeft span {
+  font-size: 14px;
+}
+.contact .contactContainer .contactMain .contactRight .contactForm {
+  width: 320px;
+  height: auto;
+  padding: 10px;
+}
+.contact .contactContainer .contactMain .contactRight .contactForm input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ff9c75;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #ff510e;
+}
+.contact
+  .contactContainer
+  .contactMain
+  .contactRight
+  .contactForm
+  input::placeholder {
+  color: #ffd6c6;
+}
+.contact .contactContainer .contactMain .contactRight .contactForm textarea {
+  width: 90%;
+  height: 100px;
+  border: 1px solid #ff9c75;
+  outline: none;
+  padding: 10px;
+  font-size: 15px;
+  color: #ff510e;
+}
+.contact
+  .contactContainer
+  .contactMain
+  .contactRight
+  .contactForm
+  textarea::placeholder {
+  color: #ffd6c6;
+}
+.contact .contactContainer .contactMain .contactRight .contactForm .subBtn {
+  width: 90%;
+  padding: 10px 5px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  letter-spacing: 1px;
+}
+.contact .contactContainer .contactMain .contactRight .contactForm {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid #ffd5c4;
+  padding: 20px 0px;
+  border-radius: 5px;
+  box-shadow: rgba(186, 182, 178, 0.772) 0px 1px 4px;
+}
+.contact
+  .contactContainer
+  .contactMain
+  .contactRight
+  .contactForm
+  .subBtn:hover {
+  background-color: rgb(1, 97, 1);
+}
+.contact .contactContainer .contactMain .contactRight .contactForm h2 {
+  color: #ff510e;
+  text-align: center;
+  margin-bottom: 20px;
+}

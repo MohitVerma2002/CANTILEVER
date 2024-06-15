@@ -1,0 +1,30 @@
+.openSelectCountry {
+  position: relative;
+  cursor: pointer;
+  width: 140px;
+  height: auto;
+  display: block;
+  color: #f95717;
+  padding: 5px 15px;
+  margin-top: 0px;
+  font-size: 18px;
+}
+.selectDropCountry {
+  display: flex;
+  border: 1px solid #f95717;
+  margin-right: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.selectDropCountry:hover {
+  background-color: #ffffff;
+}
+.locationIcon {
+  opacity: 0.6;
+  color: #f95717;
+  font-size: 20px !important;
+  position: relative;
+  top: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+}

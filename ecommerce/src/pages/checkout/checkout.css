@@ -1,0 +1,61 @@
+.checkout {
+  width: 100%;
+  padding: 50px;
+}
+.checkoutHeading {
+  font-size: 30px;
+  color: #ff510e;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+.checkoutInput {
+  width: 300px;
+}
+.checkOutForm {
+  margin-bottom: 15px;
+}
+.checkoutMain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.checkoutMain .checkoutRight {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #ffc7b0;
+  border-radius: 5px;
+}
+.orderHeading {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ff510e;
+  font-size: 25px;
+}
+.tableContainer .table th {
+  width: 200px !important;
+}
+.payButton {
+  width: 100%;
+  margin-top: 30px;
+}
+.payButton .link {
+  width: 100%;
+  text-decoration: none;
+}
+.payButton .link .payBtn {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.payButton .link .payBtn:hover {
+  background-color: rgb(2, 100, 2);
+}

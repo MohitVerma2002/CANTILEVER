@@ -1,0 +1,76 @@
+.register {
+  margin: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.register h1 {
+  color: #ff804e;
+}
+.registerContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.registerCard {
+  width: 450px;
+  height: auto;
+  background-color: #fff8f4;
+  border: 1px solid #ff804e;
+  border-radius: 5px;
+  box-shadow: rgba(163, 49, 0, 0.16) 1px 2px 4px;
+  padding: 20px;
+  color: #ff804e;
+}
+.registerCard h2 {
+  text-align: center;
+  color: #ff804e;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.registerInfo .inputText {
+  width: 100%;
+  margin-bottom: 20px !important;
+}
+
+.registerInfo .signUpBtn {
+  width: 100%;
+  background-color: #ff804e !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.registerPassword {
+  position: relative;
+}
+
+.eyeIcon {
+  position: absolute;
+  top: -65px;
+  left: 85%;
+  z-index: 100;
+}
+.eyeIcon svg {
+  color: #ff804e;
+  opacity: 0.7;
+}
+p {
+  text-align: center;
+}
+.googleBtn {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px !important;
+  background-color: #ffffff !important;
+}
+.googleIcon {
+  margin-right: 20px;
+}
