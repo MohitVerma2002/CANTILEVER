@@ -1,0 +1,77 @@
+.navbar{
+    background-color: black;
+}
+.navbar span{
+    color: white;
+}
+.navbar span span{
+    color: crimson;
+}
+.navbar .title{
+    font-family: "Zeyada", cursive;
+    font-size: 30px !important;
+}
+.dropdown{
+    color: crimson !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.custom-dropdown-toggle {/* Change to your desired color */
+    color: white !important; /* Change the text color if needed */
+    border-color: crimson  !important; /* Change the border color to match */
+  }
+  
+  .custom-dropdown-toggle:hover,
+  .custom-dropdown-toggle:focus,
+  .custom-dropdown-toggle:active,
+  .custom-dropdown-toggle.show {
+    background-color: crimson !important;
+  }
+
+
+  .searchBtn{
+    color: white !important;
+    border-color: crimson !important;
+  }
+  .searchBtn:hover,
+  .searchBtn:focus,
+  .searchBtn:active,
+  .searchBtn.show {
+    background-color: crimson !important;
+    color: white !important;
+  }
+  .logoutBtn{
+    color: white !important;
+    border-color: crimson !important;
+    background-color: crimson !important;
+    margin-left: 10px;
+  }
+  .logoutBtn:hover,
+  .logoutBtn:focus,
+  .logoutBtn:active,
+  .logoutBtn.show {
+    background-color: white !important;
+    color: crimson !important;
+  }
+
+  .navItems:hover{
+  color: crimson !important;
+  transition: 0.2s ease-in-out;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg>') !important;
+}
+
+
+@media (max-width: 576px) { /* Small screen breakpoint */
+    .custom-nav .nav-link {
+      margin-bottom: 10px;
+      display: block;
+      text-align: center;  /* Optionally center align text */
+    }
+    .custom-dropdown-menu .dropdown-item {
+        margin-bottom: 10px;
+        text-align: center; /* Optionally center align text */
+      }
+  }

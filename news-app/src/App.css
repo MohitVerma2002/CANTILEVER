@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Playwrite+FR+Moderne:wght@100..400&display=swap");
+.columnLeft {
+  background-color: whitesmoke !important;
+  text-align: center;
+  padding: 20px;
+  height: 300px;
+}
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
